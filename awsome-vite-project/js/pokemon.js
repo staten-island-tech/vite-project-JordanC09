@@ -664,3 +664,4 @@ const pokemonStarters = [
     image: "", // Add image URL here
   },
 ];
+export { pokemonStarters };
