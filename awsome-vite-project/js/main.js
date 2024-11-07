@@ -9,9 +9,11 @@ DOMSelectors.btn.addEventListener("click", function () {
   if (document.body.classList.contains("basic")) {
     document.body.classList.add("water");
     document.body.classList.remove("basic");
+    DOMSelectors.btn.innerHTML = "Make this website TERRIBLE again";
   } else {
     document.body.classList.add("basic");
     document.body.classList.remove("water");
+    DOMSelectors.btn.innerHTML = "Make this website GREAT again";
   }
 });
 
@@ -20,7 +22,7 @@ function addcards(array) {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeEnd",
       `
-      <div class = "card">
+      <div class = "card" id = "${item.types[0]}${item.stage}">
         <h1 class = "card-head">${item.name}</h1>
         <h2 class = "card-type">${item.types}</h2>
         <img src = "${item.image}" class = "card-image" alt = "${item.name}"
