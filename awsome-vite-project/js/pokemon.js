@@ -80,7 +80,7 @@ const pokemonStarters = [
     stage: 1,
     generation: 2,
     altText: "Chikorita, the Leaf Pokémon",
-    image: "", // Add image URL here
+    image: "../images/chik.jpg", // Add image URL here
   },
   {
     name: "Bayleef",
@@ -88,7 +88,7 @@ const pokemonStarters = [
     stage: 2,
     generation: 2,
     altText: "Bayleef, the Herb Pokémon",
-    image: "", // Add image URL here
+    image: "../images/bayleef.jpg", // Add image URL here
   },
   {
     name: "Meganium",
@@ -96,7 +96,7 @@ const pokemonStarters = [
     stage: 3,
     generation: 2,
     altText: "Meganium, the Herb Pokémon",
-    image: "", // Add image URL here
+    image: "../images/meganium.jpg", // Add image URL here
   },
   {
     name: "Cyndaquil",
@@ -104,7 +104,7 @@ const pokemonStarters = [
     stage: 1,
     generation: 2,
     altText: "Cyndaquil, the Tiny Fire Mouse Pokémon",
-    image: "", // Add image URL here
+    image: "../images/cyndiquil.jpg", // Add image URL here
   },
   {
     name: "Quilava",
@@ -112,7 +112,7 @@ const pokemonStarters = [
     stage: 2,
     generation: 2,
     altText: "Quilava, the Volcano Pokémon",
-    image: "", // Add image URL here
+    image: "../images/quail.jpg", // Add image URL here
   },
   {
     name: "Typhlosion",
@@ -120,7 +120,7 @@ const pokemonStarters = [
     stage: 3,
     generation: 2,
     altText: "Typhlosion, the Volcano Pokémon",
-    image: "", // Add image URL here
+    image: "../images/typhlosion.jpg", // Add image URL here
   },
   {
     name: "Totodile",

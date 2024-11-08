@@ -1,7 +1,7 @@
 import "../CSS/style.css";
 import { pokemonStarters } from "./pokemon.js";
 const DOMSelectors = {
-  btn: document.querySelector(".change"),
+  btn: document.querySelector(".sort-type"),
   container: document.querySelector(".container"),
 };
 

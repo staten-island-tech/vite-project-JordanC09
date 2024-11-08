@@ -6,11 +6,16 @@ html, body, *{
 }
 
 :root{
-  --light-blue: #1884e9;
-  --dark-blue: #135cc5;
+  --grassstage1: #3fce1b;
+  --grassstage2: #1cb70e;
+  --grassstage3: #238c08;
+  --waterstage1: #0292f2;
+  --waterstage2: #0066ff;
+  --waterstage3: #0640c8;
 
-  --light-red: #f87171;
-  --dark-red: #dc2626;
+  --firestage1: #f84242;
+  --firestage2: #da3535;
+  --firestage3: #dc2626;
 
 
   --primary: var(--light-blue);
@@ -29,7 +34,10 @@ body{
   transition: all 0.5s;
 }
 h1{
-  font-size: var(--h1);
+  font-size: 100px;
+}
+.card-head{
+  font-size: 3vw;
 }
 h2{
   font-size: var(--h2);
@@ -37,11 +45,13 @@ h2{
 body{
   text-align: center;
 }
-.change{
-  width: 500px;
-  height: 500px;
-  font-size: 100px;
+button{
+  font-size: 20px;
+  height: 50px;
+  width: auto;
 }
+
+
 .basic{
   background-image: url("../images/nothing.jpg");
   background-size: 500px;
@@ -71,6 +81,9 @@ body{
   height: auto;
   background-color: #dc2626;
   border-radius: 10px;
+  border: 5px solid black;
+
+  font-size: 1vw;
   
 }
 
@@ -80,5 +93,29 @@ body{
 }
 #Grass1{
   
-  background-color: var(--light-blue);
+  background-color: var(--grassstage1);
+}
+#Grass2{
+  background-color: var(--grassstage2);
+}
+#Grass3{
+  background-color: var(--grassstage3);
+}
+#Water1{
+  background-color: var(--waterstage1);
+}
+#Water2{
+  background-color: var(--waterstage2);
+}
+#Water3{
+  background-color: var(--waterstage3);
+}
+#Fire1{
+  background-color: var(--firestage1);
+}
+#Fire2{
+  background-color: var(--firestage2);
+}
+#Fire3{
+  background-color: var(--firestage3);
 }
