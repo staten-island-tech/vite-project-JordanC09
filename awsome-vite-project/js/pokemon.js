@@ -54,7 +54,7 @@ const pokemonStarters = [
     stage: 1,
     generation: 1,
     altText: "Squirtle, the Tiny Turtle Pokémon",
-    image: "", // Add image URL here
+    image: "../images/squirtle.jpg", // Add image URL here
   },
   {
     name: "Wartortle",
@@ -62,7 +62,7 @@ const pokemonStarters = [
     stage: 2,
     generation: 1,
     altText: "Wartortle, the Turtle Pokémon",
-    image: "", // Add image URL here
+    image: "../images/wartortle.jpg", // Add image URL here
   },
   {
     name: "Blastoise",
@@ -70,7 +70,7 @@ const pokemonStarters = [
     stage: 3,
     generation: 1,
     altText: "Blastoise, the Shellfish Pokémon",
-    image: "", // Add image URL here
+    image: "../images/blast.jpg", // Add image URL here
   },
 
   // Generation 2
