@@ -17,9 +17,10 @@ html, body, *{
   --firestage2: #da3535;
   --firestage3: #dc2626;
 
-
-  --primary: var(--light-blue);
-  --secondary: var(--dark-blue);
+  --fireback: #5e0000;
+  --waterback: #0e256d;
+  --grassback: #5eec62;
+  
   --font-color: #001010;
 
   
@@ -57,9 +58,15 @@ button{
   background-size: 500px;
   
 }
-.water{
-  background-image: url("../images/Mat.jpg");
-  background-size: 500px;
+.aqua{
+  background-color: var(--waterback);
+  
+}
+.fuego{
+  background-color: var(--fireback);
+}
+.leaf{
+  background-color: var(--grassback);
 }
 
 .container{
@@ -79,7 +86,7 @@ button{
   justify-content: space-around;
   width: 26%;
   height: auto;
-  background-color: #dc2626;
+ 
   border-radius: 10px;
   border: 5px solid black;
 
