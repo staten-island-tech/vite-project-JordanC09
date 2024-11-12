@@ -6,7 +6,7 @@ const pokemonStarters = [
     stage: 1,
     generation: 1,
     altText: "Bulbasaur, the Seed Pokémon",
-    image: "../images/bulb.jpg", // Add image URL here
+    image: "./bulb.jpg", // Add image URL here
   },
   {
     name: "Ivysaur",
@@ -14,7 +14,7 @@ const pokemonStarters = [
     stage: 2,
     generation: 1,
     altText: "Ivysaur, the Seed Pokémon",
-    image: "../images/ivy.jpg", // Add image URL here
+    image: "./ivy.jpg", // Add image URL here
   },
   {
     name: "Venusaur",
@@ -22,7 +22,7 @@ const pokemonStarters = [
     stage: 3,
     generation: 1,
     altText: "Venusaur, the Flower Pokémon",
-    image: "../images/ven.jpg", // Add image URL here
+    image: "./ven.jpg", // Add image URL here
   },
   {
     name: "Charmander",
@@ -30,7 +30,7 @@ const pokemonStarters = [
     stage: 1,
     generation: 1,
     altText: "Charmander, the Lizard Pokémon",
-    image: "../images/charmander.jpg", // Add image URL here
+    image: "./charmander.jpg", // Add image URL here
   },
   {
     name: "Charmeleon",
@@ -38,7 +38,7 @@ const pokemonStarters = [
     stage: 2,
     generation: 1,
     altText: "Charmeleon, the Flame Pokémon",
-    image: "../images/charmeleon.jpg", // Add image URL here
+    image: "./charmeleon.jpg", // Add image URL here
   },
   {
     name: "Charizard",
@@ -46,7 +46,7 @@ const pokemonStarters = [
     stage: 3,
     generation: 1,
     altText: "Charizard, the Flame Pokémon",
-    image: "../images/zard.jpg", // Add image URL here
+    image: "./zard.jpg", // Add image URL here
   },
   {
     name: "Squirtle",
@@ -54,7 +54,7 @@ const pokemonStarters = [
     stage: 1,
     generation: 1,
     altText: "Squirtle, the Tiny Turtle Pokémon",
-    image: "../images/squirtle.jpg", // Add image URL here
+    image: "./squirtle.jpg", // Add image URL here
   },
   {
     name: "Wartortle",
@@ -62,7 +62,7 @@ const pokemonStarters = [
     stage: 2,
     generation: 1,
     altText: "Wartortle, the Turtle Pokémon",
-    image: "../images/wartortle.jpg", // Add image URL here
+    image: "./wartortle.jpg", // Add image URL here
   },
   {
     name: "Blastoise",
@@ -70,7 +70,7 @@ const pokemonStarters = [
     stage: 3,
     generation: 1,
     altText: "Blastoise, the Shellfish Pokémon",
-    image: "../images/blast.jpg", // Add image URL here
+    image: "./blast.jpg", // Add image URL here
   },
 
   // Generation 2
@@ -80,7 +80,7 @@ const pokemonStarters = [
     stage: 1,
     generation: 2,
     altText: "Chikorita, the Leaf Pokémon",
-    image: "../images/chik.jpg", // Add image URL here
+    image: "./chik.jpg", // Add image URL here
   },
   {
     name: "Bayleef",
@@ -88,7 +88,7 @@ const pokemonStarters = [
     stage: 2,
     generation: 2,
     altText: "Bayleef, the Herb Pokémon",
-    image: "../images/bayleef.jpg", // Add image URL here
+    image: "./bayleef.jpg", // Add image URL here
   },
   {
     name: "Meganium",
@@ -96,7 +96,7 @@ const pokemonStarters = [
     stage: 3,
     generation: 2,
     altText: "Meganium, the Herb Pokémon",
-    image: "../images/meganium.jpg", // Add image URL here
+    image: "./meganium.jpg", // Add image URL here
   },
   {
     name: "Cyndaquil",
@@ -104,7 +104,7 @@ const pokemonStarters = [
     stage: 1,
     generation: 2,
     altText: "Cyndaquil, the Tiny Fire Mouse Pokémon",
-    image: "../images/cyndiquil.jpg", // Add image URL here
+    image: "./cyndiquil.jpg", // Add image URL here
   },
   {
     name: "Quilava",
@@ -112,7 +112,7 @@ const pokemonStarters = [
     stage: 2,
     generation: 2,
     altText: "Quilava, the Volcano Pokémon",
-    image: "../images/quail.jpg", // Add image URL here
+    image: "./quail.jpg", // Add image URL here
   },
   {
     name: "Typhlosion",
@@ -120,7 +120,7 @@ const pokemonStarters = [
     stage: 3,
     generation: 2,
     altText: "Typhlosion, the Volcano Pokémon",
-    image: "../images/typhlosion.jpg", // Add image URL here
+    image: "./typhlosion.jpg", // Add image URL here
   },
   {
     name: "Totodile",
