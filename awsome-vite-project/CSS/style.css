@@ -54,7 +54,7 @@ button{
 
 
 .basic{
-  background-image: url("./tile.png");
+  background-image:("./tile.png");
   background-size: 500px;
   
 }
