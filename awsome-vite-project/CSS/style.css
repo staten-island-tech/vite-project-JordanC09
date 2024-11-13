@@ -26,13 +26,13 @@ html, body, *{
   
 
   --h1: 7.594rem;
-  --h2: 4.063rem;
+  --h2: 5.063rem;
   --h3: 3.375rem;
   --h4: 2.25rem;
   --h5: 1.5rem;
 }
 body{
-  transition: all 1s;
+  transition: all 0.5s;
 }
 h1{
   font-size: 100px;
@@ -54,7 +54,7 @@ button{
 
 
 .basic{
-  background-image: url("../images/tile.png");
+  background-image: url("./tile.png");
   background-size: 500px;
   
 }
@@ -77,7 +77,6 @@ button{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  transition: all 2s;
 }
 .card{
   display: flex;
@@ -92,8 +91,6 @@ button{
   border: 5px solid black;
 
   font-size: 1vw;
-  
-  
   
 }
 
@@ -129,3 +126,4 @@ button{
 #Fire3{
   background-color: var(--firestage3);
 }
+
